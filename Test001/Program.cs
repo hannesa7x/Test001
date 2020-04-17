@@ -24,6 +24,7 @@ namespace Test001
             {
                 Console.Write("-");
             }
+            //*** Hier fehlt das Zentrieren!!!
             Console.WriteLine(titel);
             for (int i = 0; i < Console.WindowWidth; i++)
             {

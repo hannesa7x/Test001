@@ -13,6 +13,10 @@ namespace Test001
             Titel("Dies ist ein Test");
             Console.ReadKey();
         }
+        /// <summary>
+        /// Zeigt einen Titel an
+        /// </summary>
+        /// <param name="titel">Inhalt des Titels</param>
         static void Titel(string titel)
         {
             Console.Clear();

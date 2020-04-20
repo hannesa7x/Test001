@@ -24,11 +24,7 @@ namespace Test001
             {
                 Console.Write("-");
             }
-            //*** Zentrieren des Titels mittels Berechnung mithilfe Windowwidth
-            for (int i = 0; i < (Console.WindowWidth-titel.Length)/2; i++)
-            {
-                Console.Write(" ");
-            }
+            //*** Hier fehlt das Zentrieren
             Console.WriteLine(titel);
             for (int i = 0; i < Console.WindowWidth; i++)
             {

@@ -24,12 +24,7 @@ namespace Test001
             {
                 Console.Write("-");
             }
-            //*** Zentrieren erstellt von umihan
-            Console.WriteLine(titel);
-            for (int i = 0; i < Console.WindowWidth; i++)
-            {
-                Console.Write("-");
-            }
+            //*** Zentrieren fehlt
 
         }
 
